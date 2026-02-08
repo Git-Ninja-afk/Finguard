@@ -1,0 +1,9 @@
+{
+  "name": "FINGUARD - AI Aquaculture",
+  "description": "Premium AI-powered aquaculture management system with disease detection, real-time monitoring, and farmer marketplace.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
