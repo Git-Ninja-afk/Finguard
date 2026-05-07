@@ -1,34 +1,20 @@
- # Overview
-FinGuard is an AI-powered aquaculture monitoring and disease detection platform designed specifically for small-scale fish farmers. By combining computer vision, machine learning, and voice-first technology, FinGuard transforms aquaculture from reactive crisis management to proactive, data-driven farming—accessible to farmers regardless of literacy or smartphone ownership.
+![Winner](https://img.shields.io/badge/HackTU_7.0-🏆_Best_Gemini_Track-FFD700)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0-FF6F00?logo=tensorflow&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-16+-339933?logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-Next.js-61DAFB?logo=react&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-SMS_Voice-F22F46?logo=twilio&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google&logoColor=white)
 
-# The Problem: An Invisible Crisis
-The global aquaculture industry faces a silent catastrophe that disproportionately affects smallholder farmers:
-The Numbers
-ChallengeImpactCrop Loss Rate40% of harvests lost to preventable causesAnnual Global Losses$2.3 billion from water quality issues aloneFarms Affected80% of aquaculture operations globallyDetection Gap60-80% of stock infected before symptoms appear
-Human Cost
+# FinGuard — Intelligence Beneath the Surface
 
-Financial Instability: 70% of farmers cite income volatility as their #1 concern
-Debt Cycles: Average debt increases 3x after a mortality event
-No Safety Net: <5% of small farms have any water quality monitoring
-Blind Farming: Existing solutions cost $5,000-$15,000—far beyond reach
+> AI-powered early disease detection for smallholder fish farmers.
+> No internet. No smartphone. Just results.
 
-# Market Context
-The Asia Pacific region dominates 63% of global aquaculture ($607B market value), home to millions of smallholder farmers whose livelihoods depend on healthy fish stocks. When they suffer, entire communities suffer.
-The Core Issue: Water toxicity, disease, and environmental stress are invisible until catastrophic damage occurs. Farmers rely on intuition, not data—making critical decisions blind.
+ **Winner — Best Use of Gemini Track @ HackTU 7.0**
 
-# Our Solution
-FinGuard delivers enterprise-grade aquaculture intelligence at zero cost to farmers who need it most.
-Key Capabilities
-AI-Based Monitoring
-Continuous 24/7 monitoring of water quality, fish behavior, and environmental conditions using computer vision and sensor fusion.
-Disease Detection
-Machine learning models trained on thousands of disease cases identify symptoms 48-72 hours before visible signs appear.
-Risk Scoring Engine
-Predictive analytics combine multiple data sources to generate actionable risk scores—empowering farmers to intervene before problems escalate.
-Voice-First Assistant
-Designed for farmers with limited literacy. Speak in local language, receive voice alerts and guidance—no smartphone expertise needed.
-Accessibility First
-
+---
 Works on basic feature phones via SMS and voice calls
 No internet required for core functionality
 Available in 15+ local languages
@@ -63,7 +49,7 @@ Designed for feature phones
 # Core Features
 FeatureDescription🐟 Behavioral Risk ProfilingDetect early warning signs through fish behavior analysis🔬 AI Disease DetectionImage recognition identifies diseases before visible symptoms📱 Smart AlertsSMS-friendly notifications for low-tech environments💧 Pond Health ScoreAt-a-glance status of overall pond conditions🌿 Local Treatment SuggestionsCulturally-appropriate remedies using locally available resources📊 Explainable AI DashboardEvery recommendation includes reasoning, building farmer trust through transparency
 
-Measurable Impact
+**Measurable Impact**
 Direct Outcomes
 MetricResultDescriptionReduce Mortality40-60%Reduction in fish mortality through early detection and interventionIncrease Income25-35%Increase in farmer income from prevented losses and optimized harvestsData-Driven FarmingTransformativeShift from reactive crisis management to proactive, evidence-based decisions
 Scalable Impact
@@ -73,7 +59,7 @@ FinGuard is designed to serve millions of smallholder farmers across Asia Pacifi
 Potential to protect $50B+ in annual production value
 </div>
 
-Business Model
+**Business Model**
 Profitability Meets Social Impact
 Freemium Tier
 Mission: Ensure accessibility for all farmers regardless of income
@@ -101,7 +87,7 @@ Revenue Projection
 
 Profitability by Month 24 while maintaining free tier for farmers
 
-Roadmap
+**Roadmap**
 From Reactive Tool to Proactive Intelligence Platform
 Future Scope
 IoT Sensor Integration
@@ -126,32 +112,45 @@ FinGuard/
 ├── docs/                # Documentation & guides
 └── README.md
 
-Quick Start
-Prerequisites
 
-Python 3.9+
-Node.js (v16+)
-MongoDB or PostgreSQL
 
-Installation
-bash# Clone the repository
-git clone https://github.com/your-username/FinGuard.git
-cd FinGuard
+## Quick Start
+
+### Prerequisites
+- Python 3.9+
+- Node.js v16+
+- MongoDB or PostgreSQL
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Git-Ninja-afk/Finguard.git
+cd Finguard
 
 # Install AI/ML dependencies
-cd ai-models
-pip install -r requirements.txt
+cd ai-models && pip install -r requirements.txt
 
 # Install backend dependencies
-cd ../api
-npm install
+cd ../api && npm install
 
 # Install frontend dependencies
-cd ../dashboard
-npm install
+cd ../dashboard && npm install
 
-# Start services
+# Start all services
 npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+```bash
+cp .env.example .env
+```
+
+---
+
 
 # Social Impact
 FinGuard exists to serve the millions of smallholder fish farmers worldwide who feed their communities but farm without safety nets, insurance, or access to technology.
