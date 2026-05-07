@@ -99,6 +99,20 @@ Aggregate anonymized data to create real-time disease outbreak maps, enabling re
 Predictive Forecasting
 Machine learning models that predict disease outbreaks 7-14 days in advance based on weather patterns, water conditions, and seasonal trends.
 
+## Screenshots
+
+<div align="center">
+
+### Home Dashboard
+![Dashboard](dashboard.png)
+*Real-time Pond Health Index with live monitoring*
+
+### Fish AI Diagnostic  
+![AI Diagnostic](ai-diagnostic.png)
+*Gemini Vision powered disease detection*
+
+</div>
+
 # Tech Stack
 LayerTechnologyComputer VisionTensorFlow, OpenCV, Custom CNN ModelsMachine LearningScikit-learn, PyTorch, Disease Classification ModelsBackendNode.js, Express, REST APIsDatabaseMongoDB, PostgreSQLSMS/VoiceTwilio, Local Telecom APIsFrontendReact, Next.js, TailwindCSS
 
