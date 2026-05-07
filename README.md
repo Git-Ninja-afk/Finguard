@@ -10,7 +10,7 @@
 # FinGuard — Intelligence Beneath the Surface
 
 > AI-powered early disease detection for smallholder fish farmers.
-> No internet. No smartphone. Just results.
+> No internet. No smartphone. Just results. 
 
  **Winner — Best Use of Gemini Track @ HackTU 7.0**
 
